@@ -1,0 +1,23 @@
+{
+  "name": "Appli Loi CI",
+  "short_name": "Loi CI",
+  "description": "Chat juridique documentaire sur les rapports police-citoyen en Côte d’Ivoire.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#212121",
+  "theme_color": "#111827",
+  "lang": "fr",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/apple-icon.svg",
+      "sizes": "180x180",
+      "type": "image/svg+xml"
+    }
+  ]
+}

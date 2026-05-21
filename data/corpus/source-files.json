@@ -1,0 +1,152 @@
+[
+  {
+    "id": "constitution-2016-html",
+    "document_id": "constitution-2016",
+    "file_role": "html",
+    "file_path": "C:\\Users\\Dell\\Documents\\Projet_Perso\\Appli_Loi\\data\\extracted\\constitution-2016.html",
+    "source_url": "https://civlii.laws.africa/fr/akn/ci/act/2016/886/fra%402023-10-24",
+    "mime_type": "text/html",
+    "checksum": "394d29014288d26d8b82cca7ffc36de69e37f9ee293812f628f67534161cb97f",
+    "size_bytes": 301322
+  },
+  {
+    "id": "constitution-2016-pdf",
+    "document_id": "constitution-2016",
+    "file_role": "pdf",
+    "file_path": "C:\\Users\\Dell\\Documents\\Projet_Perso\\Appli_Loi\\data\\raw_pdfs\\constitution-2016.pdf",
+    "source_url": "https://civlii.laws.africa/fr/akn/ci/act/2016/886/fra%402023-10-24/source.pdf",
+    "mime_type": "application/pdf",
+    "checksum": "ddb432ba84b2fcd4a682c6fd2f1262792ba29fea7a84cd594f8c719302d6f044",
+    "size_bytes": 548812
+  },
+  {
+    "id": "constitution-2016-txt",
+    "document_id": "constitution-2016",
+    "file_role": "extracted_text",
+    "file_path": "C:\\Users\\Dell\\Documents\\Projet_Perso\\Appli_Loi\\data\\extracted\\constitution-2016.txt",
+    "source_url": "https://civlii.laws.africa/fr/akn/ci/act/2016/886/fra%402023-10-24/source.pdf",
+    "mime_type": "text/plain",
+    "checksum": "75b8de39e739a3a3e6d6ea2867b241da640e90299ab5b81bec5e55e735b845e3",
+    "size_bytes": 140066
+  },
+  {
+    "id": "code-procedure-penale-2018-html",
+    "document_id": "code-procedure-penale-2018",
+    "file_role": "html",
+    "file_path": "C:\\Users\\Dell\\Documents\\Projet_Perso\\Appli_Loi\\data\\extracted\\code-procedure-penale-2018.html",
+    "source_url": "https://civlii.laws.africa/fr/akn/ci/act/2018/975/fra%402024-06-23",
+    "mime_type": "text/html",
+    "checksum": "3429e2cc9dd30eb1e911bbf8b353620551e8367ee0f86d7aae37ce40bbf351b7",
+    "size_bytes": 1503881
+  },
+  {
+    "id": "code-procedure-penale-2018-pdf",
+    "document_id": "code-procedure-penale-2018",
+    "file_role": "pdf",
+    "file_path": "C:\\Users\\Dell\\Documents\\Projet_Perso\\Appli_Loi\\data\\raw_pdfs\\code-procedure-penale-2018.pdf",
+    "source_url": "https://civlii.laws.africa/fr/akn/ci/act/2018/975/fra%402024-06-23/source.pdf",
+    "mime_type": "application/pdf",
+    "checksum": "e0ec5bdf9f8751ed2eaf6d5de37c4816ca4f59525b1141f35f70f46a4851f8b1",
+    "size_bytes": 1827388
+  },
+  {
+    "id": "code-procedure-penale-2018-txt",
+    "document_id": "code-procedure-penale-2018",
+    "file_role": "extracted_text",
+    "file_path": "C:\\Users\\Dell\\Documents\\Projet_Perso\\Appli_Loi\\data\\extracted\\code-procedure-penale-2018.txt",
+    "source_url": "https://civlii.laws.africa/fr/akn/ci/act/2018/975/fra%402024-06-23/source.pdf",
+    "mime_type": "text/plain",
+    "checksum": "be2bce33dcffb834f5b782bbc569124184f8f10976422d33de8bb0671b824d18",
+    "size_bytes": 711946
+  },
+  {
+    "id": "carte-identite-2019-html",
+    "document_id": "carte-identite-2019",
+    "file_role": "html",
+    "file_path": "C:\\Users\\Dell\\Documents\\Projet_Perso\\Appli_Loi\\data\\extracted\\carte-identite-2019.html",
+    "source_url": "https://civlii.laws.africa/fr/akn/ci/act/2019/566/fra@2021-03-21",
+    "mime_type": "text/html",
+    "checksum": "e8c40e754f49521910c507f548910e64202e38fa0bdff466bef60b4fbb6060aa",
+    "size_bytes": 39488
+  },
+  {
+    "id": "carte-identite-2019-pdf",
+    "document_id": "carte-identite-2019",
+    "file_role": "pdf",
+    "file_path": "C:\\Users\\Dell\\Documents\\Projet_Perso\\Appli_Loi\\data\\raw_pdfs\\carte-identite-2019.pdf",
+    "source_url": "https://civlii.laws.africa/fr/akn/ci/act/2019/566/fra@2021-03-21/source.pdf",
+    "mime_type": "application/pdf",
+    "checksum": "e7069a4f1dfd45603cfaaca9e4de092c1af04ce3c59d09edfb81b44b798e0e0d",
+    "size_bytes": 150397
+  },
+  {
+    "id": "carte-identite-2019-txt",
+    "document_id": "carte-identite-2019",
+    "file_role": "extracted_text",
+    "file_path": "C:\\Users\\Dell\\Documents\\Projet_Perso\\Appli_Loi\\data\\extracted\\carte-identite-2019.txt",
+    "source_url": "https://civlii.laws.africa/fr/akn/ci/act/2019/566/fra@2021-03-21/source.pdf",
+    "mime_type": "text/plain",
+    "checksum": "30db3cc6df42de5f52b8eee915f16a93f373c48514e2245392c120bf06176503",
+    "size_bytes": 3746
+  },
+  {
+    "id": "perquisitions-criminalite-1996-html",
+    "document_id": "perquisitions-criminalite-1996",
+    "file_role": "html",
+    "file_path": "C:\\Users\\Dell\\Documents\\Projet_Perso\\Appli_Loi\\data\\extracted\\perquisitions-criminalite-1996.html",
+    "source_url": "https://civlii.laws.africa/fr/akn/ci/act/1996/765/fra@2023-10-11",
+    "mime_type": "text/html",
+    "checksum": "4154f3903848258b5856b0a7c6c40ca0063565255ff377a29ab274149369f127",
+    "size_bytes": 38102
+  },
+  {
+    "id": "perquisitions-criminalite-1996-pdf",
+    "document_id": "perquisitions-criminalite-1996",
+    "file_role": "pdf",
+    "file_path": "C:\\Users\\Dell\\Documents\\Projet_Perso\\Appli_Loi\\data\\raw_pdfs\\perquisitions-criminalite-1996.pdf",
+    "source_url": "https://civlii.laws.africa/fr/akn/ci/act/1996/765/fra@2023-10-11/source.pdf",
+    "mime_type": "application/pdf",
+    "checksum": "974370190ad889e1075f95f6de14136daa1126c01b764d3cd18bc5450a5b648b",
+    "size_bytes": 150228
+  },
+  {
+    "id": "perquisitions-criminalite-1996-txt",
+    "document_id": "perquisitions-criminalite-1996",
+    "file_role": "extracted_text",
+    "file_path": "C:\\Users\\Dell\\Documents\\Projet_Perso\\Appli_Loi\\data\\extracted\\perquisitions-criminalite-1996.txt",
+    "source_url": "https://civlii.laws.africa/fr/akn/ci/act/1996/765/fra@2023-10-11/source.pdf",
+    "mime_type": "text/plain",
+    "checksum": "7db3fb0a560dd31ae4a7f131aca0ad7ae09db74a6966d4e1fd532ea6deb51135",
+    "size_bytes": 4057
+  },
+  {
+    "id": "usage-voies-routieres-2016-html",
+    "document_id": "usage-voies-routieres-2016",
+    "file_role": "html",
+    "file_path": "C:\\Users\\Dell\\Documents\\Projet_Perso\\Appli_Loi\\data\\extracted\\usage-voies-routieres-2016.html",
+    "source_url": "https://civlii.laws.africa/fr/akn/ci/act/decree/2016/864/fra@2023-07-18",
+    "mime_type": "text/html",
+    "checksum": "ff59fbd16410de825d913e89c979661f59c69c2643dcaf018c1e035db742ac93",
+    "size_bytes": 698587
+  },
+  {
+    "id": "usage-voies-routieres-2016-pdf",
+    "document_id": "usage-voies-routieres-2016",
+    "file_role": "pdf",
+    "file_path": "C:\\Users\\Dell\\Documents\\Projet_Perso\\Appli_Loi\\data\\raw_pdfs\\usage-voies-routieres-2016.pdf",
+    "source_url": "https://civlii.laws.africa/fr/akn/ci/act/decree/2016/864/fra@2023-07-18/source.pdf",
+    "mime_type": "application/pdf",
+    "checksum": "9a7081470398bea4e1f7fb0c07a730baeeb6837131dfadec1b84fd133c5d181c",
+    "size_bytes": 818163
+  },
+  {
+    "id": "usage-voies-routieres-2016-txt",
+    "document_id": "usage-voies-routieres-2016",
+    "file_role": "extracted_text",
+    "file_path": "C:\\Users\\Dell\\Documents\\Projet_Perso\\Appli_Loi\\data\\extracted\\usage-voies-routieres-2016.txt",
+    "source_url": "https://civlii.laws.africa/fr/akn/ci/act/decree/2016/864/fra@2023-07-18/source.pdf",
+    "mime_type": "text/plain",
+    "checksum": "85de611ca6b427d1691e03e8de55ea4e912f7f9d53ba1f3fc72d2dd812671502",
+    "size_bytes": 257320
+  }
+]

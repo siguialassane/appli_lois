@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Appli Loi CI">
+  <rect width="512" height="512" rx="96" fill="#111827"/>
+  <rect x="56" y="56" width="400" height="400" rx="72" fill="#232a37"/>
+  <path d="M176 148h160v38H220v67h102v38H220v73h116v38H176z" fill="#f7f7f8"/>
+  <path d="M345 148h40v254h-40z" fill="#f7f7f8"/>
+</svg>
