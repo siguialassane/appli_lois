@@ -1,7 +1,5 @@
-import { readFile } from "node:fs/promises";
-import path from "node:path";
-
-import { CORPUS_DIR } from "./config";
+import legalDocumentsJson from "../../../data/corpus/legal-documents.json";
+import legalPassagesJson from "../../../data/corpus/legal-passages.json";
 import {
   legalDocumentArraySchema,
   legalPassageArraySchema,
@@ -16,20 +14,12 @@ type CorpusBundle = {
 
 let corpusPromise: Promise<CorpusBundle> | null = null;
 
-async function readJson<T>(fileName: string) {
-  const raw = await readFile(path.join(CORPUS_DIR, fileName), "utf8");
-  return JSON.parse(raw) as T;
-}
-
 export async function loadCorpus(): Promise<CorpusBundle> {
   if (!corpusPromise) {
-    corpusPromise = Promise.all([
-      readJson<LegalDocument[]>("legal-documents.json"),
-      readJson<LegalPassage[]>("legal-passages.json"),
-    ]).then(([documents, passages]) => ({
-      documents: legalDocumentArraySchema.parse(documents),
-      passages: legalPassageArraySchema.parse(passages),
-    }));
+    corpusPromise = Promise.resolve({
+      documents: legalDocumentArraySchema.parse(legalDocumentsJson),
+      passages: legalPassageArraySchema.parse(legalPassagesJson),
+    });
   }
 
   return corpusPromise;
