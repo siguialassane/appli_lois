@@ -10,6 +10,8 @@ import {
 } from "./types";
 import { newId, nowIso } from "./utils";
 
+const memorySessions = new Map<string, LocalChatSession>();
+
 async function ensureSessionDir() {
   await mkdir(CHAT_SESSIONS_DIR, { recursive: true });
 }
@@ -18,22 +20,44 @@ function sessionPath(sessionId: string) {
   return path.join(CHAT_SESSIONS_DIR, `${sessionId}.json`);
 }
 
-export async function getOrCreateSession(sessionId: string) {
-  await ensureSessionDir();
+function createEmptySession(sessionId: string): LocalChatSession {
+  return {
+    id: sessionId,
+    createdAt: nowIso(),
+    updatedAt: nowIso(),
+    messages: [],
+  };
+}
 
+function readMemorySession(sessionId: string) {
+  return memorySessions.get(sessionId) ?? null;
+}
+
+function writeMemorySession(session: LocalChatSession) {
+  memorySessions.set(session.id, session);
+  return session;
+}
+
+export async function getOrCreateSession(sessionId: string) {
   try {
+    await ensureSessionDir();
     const raw = await readFile(sessionPath(sessionId), "utf8");
     return localChatSessionSchema.parse(JSON.parse(raw));
   } catch {
-    const session: LocalChatSession = {
-      id: sessionId,
-      createdAt: nowIso(),
-      updatedAt: nowIso(),
-      messages: [],
-    };
+    const existingMemorySession = readMemorySession(sessionId);
+    if (existingMemorySession) {
+      return existingMemorySession;
+    }
 
-    await writeFile(sessionPath(sessionId), JSON.stringify(session, null, 2), "utf8");
-    return session;
+    const session = createEmptySession(sessionId);
+
+    try {
+      await ensureSessionDir();
+      await writeFile(sessionPath(sessionId), JSON.stringify(session, null, 2), "utf8");
+      return session;
+    } catch {
+      return writeMemorySession(session);
+    }
   }
 }
 
@@ -73,6 +97,11 @@ export async function appendExchange(
     messages,
   };
 
-  await writeFile(sessionPath(sessionId), JSON.stringify(nextSession, null, 2), "utf8");
-  return nextSession;
+  try {
+    await ensureSessionDir();
+    await writeFile(sessionPath(sessionId), JSON.stringify(nextSession, null, 2), "utf8");
+    return nextSession;
+  } catch {
+    return writeMemorySession(nextSession);
+  }
 }
